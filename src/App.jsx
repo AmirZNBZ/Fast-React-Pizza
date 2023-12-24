@@ -40,10 +40,10 @@ const router = createBrowserRouter([
         element: <Order />,
         loader: orderLoader,
       },
-      // {
-      //   path: "*",
-      //   element: <Error />,
-      // },
+      {
+        path: "*",
+        element: <Error />,
+      },
     ],
   },
 ]);
